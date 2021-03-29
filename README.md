@@ -11,8 +11,8 @@
 
 #   Images
 
-[!screen-shot1](./images/screen-shot1)
-[!screen-shot2](./images/screen-shot2)
+![screen-shot1](../images/screen-shot1.png)
+![screen-shot2](../images/screen-shot2.png)
 
 
 
@@ -40,4 +40,4 @@
 
 #   Link to Portfolio
 
-[Portfolio]()
+[Portfolio](https://marisahanna.github.io/portfolio-2/)
