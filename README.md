@@ -11,8 +11,8 @@
 
 #   Images
 
-![screen-shot1](../images/screen-shot1.png)
-![screen-shot2](../images/screen-shot2.png)
+![screen-shot1](./images/screen-shot1.png)
+![screen-shot2](./images/screen-shot2.png)
 
 
 
