@@ -5,7 +5,7 @@
 
 #   Description
 
-    This is my updated portfolio. I completely redisigned the format, used new images, added more content, and included an updated resume. Project One is a featured in addition to recent homework submissions.
+    This is my updated portfolio. I completely redesigned the format, used new images, added more content, and included an updated resume. Project One is a featured in addition to recent homework submissions.
 
 
 
