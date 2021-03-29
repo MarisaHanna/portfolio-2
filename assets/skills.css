@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: black;
+}
+
+ .slider img{
+    height: 900px;
+    width: 1200px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+.logo .fa {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+   
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+.slider .imgBox .fab{
+    font-size: 20em;
+    color: white;
+}
+
+.slider .imgBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    transition-delay: 0s;
+    z-index: 1;
+    clip-path: circle(0px at center); 
+    background: radial-gradient(circle, rgb(127, 231, 170) 0%, rgba(64, 74, 211, 0.954) 100%);
+   
+}
+
+.slider .imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+
+.slider input[type='radio']:checked + .imgBox {
+    z-index: 10;
+    clip-path: circle(1000px at center);
+    transition-delay: .75s;
+}
+
+.slider input {
+    display: none;
+}
+
+.radioBtn{
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.languages{
+    position: absolute;
+    width: 100%;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-right: 30%;
+    font-size: large;
+}
+
+
+.click{
+    border: 2px solid rgb(50, 53, 236);
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 25px;
+    background: radial-gradient(circle, rgb(127, 231, 170) 0%, rgba(64, 74, 211, 0.954) 100%);
+    cursor: pointer;
+}
+
+.click:hover {
+    background:  rgb(50, 53, 236);
+}
+
+@media (max-width: 600px) {
+    header{
+        padding:  40px;
+        margin-bottom: 100%;
+    }
+
+    .slider .imgBox {
+        padding: 40px;
+        height: 90%;
+
+    }
+
+    
+}

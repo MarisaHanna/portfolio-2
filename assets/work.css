@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(circle, rgb(231, 231, 231) 0%, rgba(196, 196, 196, 0.954) 100%);
+    font-family: 'Frank Ruhl Libre', serif;;
+}
+
+.container {
+    margin-bottom: 10%;
+}
+
+.content {
+    position: relative;
+    margin-left: 25%;
+    
+}
+
+.project, .weather, .planner {
+    width: 700px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin-bottom: 5%;
+    box-shadow: 3px 3px 3px 3px rgb(70, 70, 70);
+    background: rgb(255, 255, 255)
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 500px){
+
+   .nav-link{
+        font-size: 12px;
+    }
+
+    .dropdown-item{
+        font-size: 12px;
+    }
+
+    .content{
+        margin-left: 20%;
+    }
+
+    .project, .weather, .planner{
+        font-size: smaller;
+        width: 250px;
+        text-align: center;
+    }
+}
